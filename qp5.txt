@@ -1,0 +1,35 @@
+5) Você está em uma sala com três interruptores, cada um conectado a uma 
+lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em 
+que está, mas pode ligar e desligar os interruptores quantas vezes quiser. 
+Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como 
+você faria para descobrir, usando apenas duas idas até uma das salas das 
+lâmpadas, qual interruptor controla cada lâmpada?  
+
+Resposta:
+
+1 - Ligaria apenas um interruptor e seguiria para uma das salas, ao chegar
+na sala existiria dois caminhos
+
+    1.1 - A luz apagada: Se a luz estivesse apagada, voltaria para a sala 
+    dos interruptores e ligaria mais um, mas dessa vez iria para outra sala,
+    chegando lá teria novamente duas opções:
+
+        1.1.1 - A luz apagada: Se a luz estivesse apagada significaria que o
+        último interruptor(aquele que ainda não foi aceso) seria o interruptor
+        da sala em questão, o segundo que foi ligado seria da primeira sala 
+        que entramos e o primeiro da terceira sala, a que não entramos.
+
+        1.1.2 - A luz acesa: Se a luz estiver acesa, tocaremos na lâmpada. 
+        Se ela estiver quente, significa que o primeiro interruptor(que foi 
+        ligado primeiro) controla a lâmpada, então a primeira sala estaria ligada 
+        ao segundo interruptor e a terceira ao que restou. Se estiver fria, significa 
+        que o segundo interruptor que controla ela, então o priemiro controla a terceira e 
+        o que restou controla a primeira sala.
+
+    1.2 - A luz acesa: Significa que o interruptor pertence aquela sala, agora
+    basta voltar, ligar outro interruptor, ir em outra sala
+
+        1.2.1 - A luz apagada: o segundo interruptor pertence a terceira sala e o que
+        restou pertence a ela
+        
+        1.2.2 - A luz acesa: o segundo interruptor pertence a ela então a que sobrou pertence a terceira sala
